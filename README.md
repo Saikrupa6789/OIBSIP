@@ -11,8 +11,8 @@ To run the login program locally, follow these steps:
    git clone [[repository_url](https://github.com/Saikrupa6789/OIBSIP.git)]
    ```
 
-2. **Open `index.html`:**
-   Open the `index.html` file in your preferred web browser.
+2. **Open `register.html`:**
+   Open the `register.html` file in your preferred web browser.
 
 3. **Explore the Features:**
    - Register: Create a new account by providing a username and password.
