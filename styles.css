@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.calculator {
+    background-color: #b18563;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 92%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: #889588;
+    margin-bottom: 10px;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #d49b7e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e8cbae !important;
+}
+
+.equal{
+    width: 210%;
+    background-color: #b3c1b3;
+}
+
+.equal:hover {
+    background-color: #889588 !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+svg {
+	font-family: "Lobster", sans-serif;
+	width: 180%; height: 30%;
+    
+    
+    
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #889588;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(179,193,179,0); stroke: rgba(136,149,136,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(179,193,179,0); stroke: rgba(136,149,136,1); }
+	80%  {fill: rgba(179,193,179,0); stroke: rgba(136,149,136,1); stroke-width: 3; }
+	100% {
+		fill: rgba(179,193,179,1); stroke: rgba(136,149,136,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+
+
+
+  
+
