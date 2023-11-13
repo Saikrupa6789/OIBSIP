@@ -30,7 +30,7 @@ The project follows a simple structure:
   
 - **`profile.html`:** Contains the HTML structure for the profile page.
    
-- **`style.css`:** Includes the CSS styles for layout and aesthetics.
+- **`styles.css`:** Includes the CSS styles for layout and aesthetics.
 
 - **`register.js`:** Implements the registration functionality using JavaScript.
 
@@ -70,7 +70,7 @@ The project follows a simple structure:
 
 ## Customization
 
-Feel free to customize the styles and layout in the `style.css` file to match your preferences. Additionally, you can enhance the program by adding features such as password encryption, user data storage, or additional user information on the profile page.
+Feel free to customize the styles and layout in the `styles.css` file to match your preferences. Additionally, you can enhance the program by adding features such as password encryption, user data storage, or additional user information on the profile page.
 
 ## Acknowledgments
 
