@@ -8,7 +8,7 @@ To explore the Walt Disney Tribute Page, follow these steps:
 
 1. **Clone the Repository:**
    ```
-   git clone [repository_url]
+   git clone [https://github.com/Saikrupa6789/OIBSIP.git]
    ```
 
 2. **Open `index.html`:**
@@ -41,10 +41,6 @@ The project follows a simple structure:
 ## Customization
 
 Feel free to customize the styles and layout in the `style.css` file to match your preferences. You can also enhance the content by adding more details, quotes, or additional sections to celebrate Walt Disney's contributions.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
