@@ -1,0 +1,48 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+.container {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+  
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #a17fdb;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9871db;
+}
+  
