@@ -59,12 +59,9 @@ For example, to calculate the sum of 5 and 3:
 
 Feel free to customize the styles and layout in the `style.css` file to match your preferences. Additionally, you can extend the functionality by adding more advanced operations or features.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
-A big thank you to the open-source community for providing resources and inspiration for creating this simple calculator project.
+A big thank you to the open-source community for providing resources and inspiration for creating this simple calculator project and to Oasis Infobyte for giving me the opportunity to create this.
 
 Happy calculating!
