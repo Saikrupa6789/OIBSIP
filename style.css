@@ -1,0 +1,85 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #4f8eb6;
+}
+
+header {
+    background: #cee3f9;
+    color: #4f8eb6;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 2rem;
+    position: relative;
+    animation: fadeIn 2s;
+}
+
+header p {
+    font-size: 1.2rem;
+    animation: slideInRight 2s;
+}
+
+.container {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+p{
+    justify-content: center;
+}
+
+.component{
+    text-align: center;
+    animation: fadeIn 2s;
+    width: 80%;
+    margin: 3%;
+    padding: 7%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.image-container {
+    animation: fadeInUp 2s;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
